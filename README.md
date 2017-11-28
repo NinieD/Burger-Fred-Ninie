@@ -14,4 +14,6 @@ Copier-coller le morceau de HTML correspondant au burger voulu.
 Et ensuite, copiez le fichier "rocket-burger.css" dans votre dossier "css". 
 
 
+## Demo :
 
+http://cepegra-labs.be/webdesign/2017/vdel/JS/_PLUGINS/burger/dist/
