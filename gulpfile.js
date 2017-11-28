@@ -10,7 +10,7 @@ var htmlMin         = require('gulp-htmlmin');
 var uglify          = require('gulp-uglify');
 var browserSync     = require('browser-sync');
 var sourcemaps      = require('gulp-sourcemaps');
-var babel           = require('gulp-babel');
+// var babel           = require('gulp-babel');
 /* --------------------- */
 /* Déclaration des tasks */
 /* --------------------- */
@@ -38,7 +38,7 @@ gulp.task('minifyhtml', function() {
 
 gulp.task('uglification', function() {
   return gulp.src('./src/js/*.js')
-  .pipe(babel({ presets: ['es2015'] })) 
+  // .pipe(babel({ presets: ['es2015'] }))
   .pipe(uglify())
   .pipe(rename(function(path){ path.basename += ".min"; }))
   .pipe(gulp.dest('./dist/js'));
